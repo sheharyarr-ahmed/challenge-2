@@ -34,8 +34,12 @@ a:hover {
     text-decoration: none;
 }
 
+a:active {
+    color: black;
+}
+
 ul {
-    list-style-type: square;
+    list-style: square;
 }
 
 button {
@@ -44,6 +48,8 @@ button {
     background-color: black;
     color: white;
     text-transform: uppercase;
+    cursor: pointer;
+    font-size: 20px;
 }
 
 button:hover {
@@ -54,5 +60,6 @@ button:hover {
 
 body {
     border: 10px solid black;
+    font-family: sans-serif;
 }
 
