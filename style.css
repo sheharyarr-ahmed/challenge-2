@@ -16,6 +16,18 @@ header h1 {
   padding-bottom: 1.5%;
 }
 
+h1::before {
+  content: "SALE";
+  position: absolute;
+  font-size: 12px;
+  top: -2.5%;
+  left: -2%;
+  background-color: red;
+  color: white;
+  padding: 4px 12px;
+  letter-spacing: 2px;
+}
+
 header {
   background-color: gray;
 }
@@ -78,6 +90,7 @@ body {
   border: 10px solid black;
   font-family: sans-serif;
   margin: 4% 15%;
+  position: relative;
 }
 
 p {
@@ -88,8 +101,42 @@ a {
   margin-bottom: 2.2%;
 }
 
+.link-more-info {
+  display: inline-block;
+}
+
+/*the concept of over-riding classes also view html code for better understanding of this code/part below*/
+.color {
+  background-color: black;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  margin-right: 2px;
+  margin-left: 4px;
+}
+
+.color-blue {
+  background-color: blue;
+}
+.color-red {
+  background-color: red;
+}
+.color-yellow {
+  background-color: yellow;
+}
+.color-brown {
+  background-color: brown;
+}
+.color-green {
+  background-color: green;
+}
+
 /* .container {
     margin: 0px;
     padding: 0px;
 
+} */
+/* .shoe-colors img {
+  padding-right: 6px;
+  cursor: pointer;
 } */
