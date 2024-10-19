@@ -1,6 +1,7 @@
 * {
   padding: 0%;
   margin: 0%;
+  box-sizing: border-box;
 }
 h3 {
   font-weight: bold;
@@ -34,6 +35,7 @@ header {
 
 .pricetag {
   font-size: 30px;
+  float: left;
 }
 
 #shipping {
@@ -41,6 +43,7 @@ header {
   font-style: normal;
   font-size: 12px;
   margin-bottom: 2%;
+  float: right;
 }
 
 a:link {
@@ -140,3 +143,21 @@ a {
   padding-right: 6px;
   cursor: pointer;
 } */
+
+.product-desc {
+  clear: both;
+}
+
+.product-info {
+  width: 40%;
+  float: left;
+}
+
+.product-details1 {
+  width: 29%;
+  float: left;
+}
+
+.shoe-pic {
+  float: left;
+}
