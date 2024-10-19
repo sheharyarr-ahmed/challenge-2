@@ -1,0 +1,173 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  border: 10px solid black;
+  margin: 170px;
+}
+
+content {
+  padding: 0px;
+  position: relative;
+  margin: 0px;
+}
+
+h1 {
+  background-color: rgb(223, 220, 220);
+  text-align: center;
+  padding: 20px;
+}
+
+p {
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+content {
+  margin: 0px;
+  padding: 0px;
+}
+
+.color {
+  background-color: black;
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+}
+
+.color-red {
+  background-color: red;
+}
+
+.color-blue {
+  background-color: blue;
+}
+
+.color-green {
+  background-color: green;
+}
+
+.color-yellow {
+  background-color: yellow;
+}
+
+.color-brown {
+  background-color: brown;
+}
+
+.shoe-image {
+  display: inline-block;
+  padding: 0px;
+  margin: 0px;
+  height: auto;
+}
+
+.shoe-info {
+  display: inline-block;
+  position: absolute;
+  /* background-color: blue; */
+  width: 300px;
+  float: left;
+  margin-left: 104px;
+  margin-top: 48px;
+  padding-right: 50px;
+  /* position: relative; */
+}
+
+.product-details {
+  float: right;
+  display: inline-block;
+  /* background-color: red; */
+  margin-right: 37px;
+  margin-top: 48px;
+  font-weight: bold;
+}
+
+.price {
+  font-family: sans-serif;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.price-para {
+  margin-bottom: 10px;
+}
+
+.shoe-colors-list {
+  margin-top: 10px;
+}
+
+.color {
+  margin-right: 20px;
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: red;
+}
+
+a:active {
+  color: red;
+}
+
+.shoe-info h3::after {
+  content: "FREE SHIPPING";
+  color: rgb(181, 178, 178);
+  font-family: sans-serif;
+  font-size: 10px;
+  position: absolute;
+  /* border: 5px solid black; */
+  margin-left: 164px;
+}
+
+.product-details h3 {
+  margin-bottom: 15px;
+}
+.product-details li {
+  margin-bottom: 20px;
+}
+
+button {
+  width: 100%;
+  border-style: none;
+  margin-left: 0px;
+  background-color: black;
+  color: white;
+  padding: 5px;
+  text-decoration: none;
+  margin-top: 0px;
+  border-top: 5px solid black;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+ul {
+  list-style: square;
+}
+
+h1::before {
+  content: "SALE";
+  font-family: sans-serif;
+  font-size: 10px;
+  margin-left: -184px;
+  display: inline-block;
+  position: absolute;
+  background-color: red;
+  color: white;
+  padding: 5px;
+  letter-spacing: 2px;
+  margin-top: -36px;
+}
