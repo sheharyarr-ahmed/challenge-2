@@ -1,2 +1,1 @@
-this version of challenge-2 was completely made by me therefore it is placed in another branch named as challenge-2-by-own whereas the original version which was done by following the ocurse is still placed in main branch
-.
+This is the complete version of "Challenge-2" which was done by me.
