@@ -1,0 +1,140 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.border {
+  border: 20px solid black;
+  margin: 75px 185px;
+}
+
+h1 {
+  text-transform: uppercase;
+  background-color: rgb(223, 220, 220);
+  text-align: center;
+  padding: 10px;
+}
+
+img {
+  display: inline;
+}
+
+.list-of-shoe-colors {
+  width: 75%;
+  display: flex;
+  gap: 10px;
+}
+
+.color {
+  background-color: black;
+  height: 25px;
+  width: 25px;
+}
+
+.color-blue {
+  background-color: blue;
+}
+
+.color-green {
+  background-color: green;
+}
+
+.color-red {
+  background-color: red;
+}
+
+.color-brown {
+  background-color: brown;
+}
+
+.color-yellow {
+  background-color: yellow;
+}
+
+.c-1 {
+  display: flex;
+  align-items: flex-start;
+  gap: 75px;
+}
+
+.price {
+  font-size: 25px;
+  margin-top: 5%;
+  margin-bottom: 4%;
+}
+
+.p-1 {
+  width: 89%;
+  margin-bottom: 4%;
+}
+
+.list-of-shoe-colors {
+  margin-top: 4%;
+}
+
+.product-details {
+  margin-top: 5%;
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+
+li {
+  list-style: square;
+  margin-bottom: 24px;
+  font-weight: bold;
+}
+
+p {
+  font-weight: bold;
+}
+
+.btn-1 {
+  width: 100%;
+  border-style: none;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border-top: 10px solid black;
+}
+
+.btn-1:hover {
+  background-color: white;
+  color: black;
+}
+
+.section-1 {
+  flex-basis: 30%;
+  margin-top: 2%;
+  flex: 1;
+}
+
+h1::before {
+  content: "SALE";
+  background-color: red;
+  color: white;
+  position: absolute;
+  padding: 10px;
+  font-size: 10px;
+  margin-top: -35px;
+  margin-left: -167px;
+  letter-spacing: 2px;
+}
+
+body {
+  position: relative;
+}
+
+.section-2 {
+  margin-top: 2%;
+  flex: 1;
+}
+
+.price::after {
+  content: "FREE SHIPPING";
+  color: rgb(181, 178, 178);
+  font-size: 10px;
+  position: absolute;
+  margin-left: 127px;
+  margin-top: 8px;
+}
