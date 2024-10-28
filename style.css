@@ -143,7 +143,7 @@ body {
 
 .c-1 {
   display: grid;
-  grid-template-columns: 250px 250px 250px;
+  grid-template-columns: 250px 1fr 1fr;
   column-gap: 75px;
 }
 
@@ -161,3 +161,6 @@ body {
   grid-column: 1 / span 4;
   grid-row: 3/4;
 }
+
+/* the below are the properties for the <a> link in the page, not necessary */
+/* ˝˝˝
