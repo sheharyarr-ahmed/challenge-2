@@ -163,4 +163,19 @@ body {
 }
 
 /* the below are the properties for the <a> link in the page, not necessary */
-/* ˝˝˝
+/* 
+.section-1 a:link {
+  color: red;
+}
+
+.section-1 a:visited {
+  color: red;
+}
+
+.section-1 a:hover {
+  color: pink;
+}
+
+.section-1 a:active {
+  color: yellowgreen;
+} */
